@@ -1,0 +1,208 @@
+/* 
+Zalozeno na skinu "Larry" 
+
+UPRAVENE SOUBORY:
+_vodafone.css
+meta.json
+includes/links.html
+images/buttons.png
+images/favicon.ico
+images/roundcube_logo.png
+images/watermark.jpg
+*/
+
+
+
+
+body.minimal #toplogo {
+     padding-top: 0; 
+    margin-top: -1px;
+}
+
+#login-form #logo {
+    margin: 20px 0 10px 0;
+}
+
+/**LUKAS**/
+
+
+a,
+a:visited {
+	color: #ff0000;
+}
+a:hover {
+	color: #ff0000;
+}
+
+input,
+select,
+textarea,
+.tablink,
+.tablink a {
+    outline: none !important;
+}
+
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input.button:focus, 
+textarea:focus,
+a.menuselector:focus, 
+a.menuselector.focus, 
+a.iconbutton:focus, 
+.pagenav a.button:focus,
+.formbuttons input.button:hover, 
+.formbuttons input.button:focus, 
+input.button.mainaction:hover, 
+input.button.mainaction:focus {
+    border-color: #E83390;
+    box-shadow: 0 0 2px 1px rgba(255,0,0, 0.6);
+    -moz-box-shadow: 0 0 2px 1px rgba(255,0,0, 0.6);
+    -webkit-box-shadow: 0 0 2px 1px rgba(255,0,0, 0.6);
+    -o-box-shadow: 0 0 2px 1px rgba(255,0,0, 0.6);
+    outline: none;
+}
+
+
+#taskbar a.button-selected {
+	color: #fe1d36;
+}
+
+
+.listbox {
+    background: #fff;
+}
+.listbox .listitem, 
+.listbox .tablink, 
+.listing tbody td, 
+.listing li {
+    border-top: none;
+    border-bottom-color: #e6e6e6;
+}
+
+.listbox .listitem a, 
+.listbox .listitem span, 
+.listbox .tablink a, 
+.listing tbody td, 
+.listing li a {
+    color: #333;
+}
+/* because of border-collapse, we make the left border twice what we want it to be - half will be hidden to the left */
+.listing.focus tbody tr.focused > td:first-child {
+	border-left-color: #ff0000;
+}
+
+.listbox .listitem.selected,
+.listbox .tablink.selected,
+.listbox .listitem.selected > a,
+.listbox .tablink.selected > a,
+.listing tbody tr.selected td,
+.listing li.selected,
+.listing li.selected > a {
+	color: #000;
+	background-color: #eee;
+}
+
+ul.listing li {
+	background-color: #fff;
+}
+
+ul.listing li ul {
+	border-top-color: #e6e6e6;
+}
+
+ul.listing li.droptarget,
+table.listing tr.droptarget td {
+	background-color: #e8e798;
+}
+
+.listbox table.listing {
+	background-color: #eee;
+}
+
+ul.treelist li a:focus,
+ul.listing .listitem a:focus,
+ul.listing .listitem span:focus,
+ul.listing.focus .listitem.focused span {
+	background-color: rgba(200,200,200,0.6);
+}
+
+
+
+.listbox .boxfooter {
+    border-top-color: #e6e6e6;
+    background: #fff;
+}
+.boxfooter .listbutton {
+    background: #fff;
+}
+.boxfooter a.listbutton:focus {
+	background-color: #fff;
+}
+
+
+.dropbutton .dropbuttontip:focus, 
+.toolbar a.button:focus {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.googie_list td.googie_list_onhover,
+ul.toolbarmenu li a.active:hover,
+ul.toolbarmenu li a.active:focus,
+#rcmKSearchpane ul li.selected,
+#pagejump-selector ul li.selected,
+select.decorated option:hover,
+select.decorated option[selected='selected'] {
+        background-color: #d90000;
+        outline: none;
+}
+
+
+/* maily grid */
+.records-table thead th, 
+.records-table thead td {
+    color: #666;
+    font-size: 11px;
+    font-weight: bold;
+    background: #eee;
+    border-left: 1px solid #ddd;
+}
+.records-table thead th a, 
+.records-table thead td a, 
+.records-table thead th span, 
+.records-table thead td span {
+    color: #666;
+}
+.messagelist thead tr th.sortedASC a, 
+.messagelist thead tr th.sortedDESC a {
+    color: #d90000;
+    text-decoration: none;
+}
+.records-table.focus tbody tr.focused>td:first-child {
+    border-left: 2px solid #d90000;
+}
+.records-table.focus tr.selected td {
+    background: #d90000;
+}
+
+
+
+
+/* Address Book */
+.uibox .boxtitle, 
+.uibox .listing thead th, 
+.uibox .listing thead td {
+    background: #eee;
+    color: #000;
+}
+.boxtitle, 
+.uibox .listing thead th, 
+.uibox .listing thead td {
+    border-bottom-color: #ddd;
+}
+.boxfooter .countdisplay {
+    color: #999;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+    color: #000;
+}
+
